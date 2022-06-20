@@ -1,0 +1,36 @@
+﻿
+<body>
+    <div class="svg-container">
+        <!-- I crated SVG with: https://codepen.io/anthonydugois/pen/mewdyZ -->
+        <svg viewbox="0 0 800 400" class="svg">
+            <path id="curve" fill="#50c6d8" d="M 800 300 Q 400 350 0 300 L 0 0 L 800 0 L 800 300 Z">
+            </path>
+        </svg>
+        <div class="container text-center" style="font-weight:bold;margin-bottom:150px;">
+            <div class="h1 text-center" style="font-weight:bold;margin-bottom:80px;">Forecast Details</div>
+            <div class="h3">Water Distance: @ViewBag.predictedWaterLevel.ToString("0") cm (Tomorrow)</div>
+            <div class="h3">Temperature: @ViewBag.predictedTemperature.ToString("0.00") C (Tomorrow)</div>
+            <div class="h3">Wind Speed: @ViewBag.predictedWindSpeed.ToString("0") km/h (Tomorrow)</div>
+            <div class="h3">Humidity: @ViewBag.predictedHumidity.ToString("0.00") % (Tomorrow)</div>
+           
+        </div>
+    </div>
+
+    <header>
+      
+       
+            <h1>Weather Forecast</h1>
+            <i class="fas fa-cloud fa-10x floating" style="margin-top:40px; color:white"></i>
+        
+      
+
+
+    </header>
+    <div class="background" style="margin-bottom:200px;">
+
+    </div>
+
+
+
+
+</body>

@@ -1,0 +1,10 @@
+C:\Users\13343\source\repos\FloodManagement\FloodManagementML.Model\bin\Debug\netstandard2.0\MLModel.zip
+C:\Users\13343\source\repos\FloodManagement\FloodManagementML.Model\bin\Debug\netstandard2.0\FloodManagementML.Model.deps.json
+C:\Users\13343\source\repos\FloodManagement\FloodManagementML.Model\bin\Debug\netstandard2.0\FloodManagementML.Model.dll
+C:\Users\13343\source\repos\FloodManagement\FloodManagementML.Model\bin\Debug\netstandard2.0\FloodManagementML.Model.pdb
+C:\Users\13343\source\repos\FloodManagement\FloodManagementML.Model\obj\Debug\netstandard2.0\FloodManagementML.Model.csprojAssemblyReference.cache
+C:\Users\13343\source\repos\FloodManagement\FloodManagementML.Model\obj\Debug\netstandard2.0\FloodManagementML.Model.AssemblyInfoInputs.cache
+C:\Users\13343\source\repos\FloodManagement\FloodManagementML.Model\obj\Debug\netstandard2.0\FloodManagementML.Model.AssemblyInfo.cs
+C:\Users\13343\source\repos\FloodManagement\FloodManagementML.Model\obj\Debug\netstandard2.0\FloodManagementML.Model.csproj.CoreCompileInputs.cache
+C:\Users\13343\source\repos\FloodManagement\FloodManagementML.Model\obj\Debug\netstandard2.0\FloodManagementML.Model.dll
+C:\Users\13343\source\repos\FloodManagement\FloodManagementML.Model\obj\Debug\netstandard2.0\FloodManagementML.Model.pdb

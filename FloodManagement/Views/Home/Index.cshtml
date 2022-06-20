@@ -1,0 +1,52 @@
+﻿
+<body>
+    <div class="svg-container">
+        <!-- I crated SVG with: https://codepen.io/anthonydugois/pen/mewdyZ -->
+        <svg viewbox="0 0 800 400" class="svg">
+            <path id="curve" fill="#50c6d8" d="M 800 300 Q 400 350 0 300 L 0 0 L 800 0 L 800 300 Z">
+            </path>
+        </svg>
+        <div class="container text-center" style="font-weight:bold;margin-bottom:150px;">
+            <div class="h1 text-center" style="font-weight:bold;margin-bottom:80px;">Informations</div>
+            <div class="h3">Water Distance: @ViewBag.WaterLevel cm</div>
+            <div class="h3">Temperature: @ViewBag.temp</div>
+            <div class="h3">Wind Speed: @ViewBag.windspeed km/h</div>
+            <div class="h3">Humidity: @ViewBag.humidity %</div>
+            @if (ViewBag.WaterLevel >= 500)
+            {
+                <div class="h3">Gate Opened.</div>
+            }
+            else
+            {
+                <div class="h3">Gate closed.</div>
+            }
+        </div>
+    </div>
+
+    <header>
+        @if (ViewBag.WaterLevel >= 500 && ViewBag.WaterLevel <= 530)
+        {
+            <h1>Warning! Water Level Is In Unsafe Postition</h1>
+            <i class="fas fa-exclamation-triangle fa-8x floating" style="margin-top:40px; color:orange"></i>
+        }
+        else if (ViewBag.WaterLevel >= 530)
+        {
+            <h1>Water Level Is In Safe Postition</h1>
+            <i class="fas fa-check fa-10x floatingNormal" style="margin-top:40px; color:greenyellow"></i>
+        }
+        else
+        {
+            <h1>Water Level is High. Evacuate People Immediately.</h1>
+            <i class="fas fa-skull-crossbones fa-10x floating" style="margin-top:40px; color:orangered"></i>
+        }
+
+
+    </header>
+    <div class="background" style="margin-bottom:200px;">
+       
+    </div>
+
+
+
+
+</body>

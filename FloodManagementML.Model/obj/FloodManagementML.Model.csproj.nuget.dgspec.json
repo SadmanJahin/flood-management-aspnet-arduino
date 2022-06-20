@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\13343\\source\\repos\\FloodManagement\\FloodManagementML.Model\\FloodManagementML.Model.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\13343\\source\\repos\\FloodManagement\\FloodManagementML.Model\\FloodManagementML.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\13343\\source\\repos\\FloodManagement\\FloodManagementML.Model\\FloodManagementML.Model.csproj",
+        "projectName": "FloodManagementML.Model",
+        "projectPath": "C:\\Users\\13343\\source\\repos\\FloodManagement\\FloodManagementML.Model\\FloodManagementML.Model.csproj",
+        "packagesPath": "C:\\Users\\13343\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\13343\\source\\repos\\FloodManagement\\FloodManagementML.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\13343\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "LumenWorksCsvReader": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.5.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

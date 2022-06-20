@@ -1,0 +1,155 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+@import 'https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700';
+ *, *:after, *:before {
+	 margin: 0;
+	 padding: 0;
+}
+ .svg-container {
+	 position: absolute;
+	 top: 0;
+	 right: 0;
+	 left: 0;
+	 z-index: -1;
+}
+ svg path {
+	 transition: 0.1s;
+}
+ svg:hover path {
+	 d: path("M 800 300 Q 400 250 0 300 L 0 0 L 800 0 L 800 300 Z");
+}
+body {
+	background: radial-gradient(ellipse at center, rgba(255, 254, 234, 1) 0%, rgba(255, 254, 234, 1) 35%, #b7e8eb 100%);
+	color: #333;
+	font-family: 'Ubuntu', sans-serif;
+	position: relative;
+}
+ h3 {
+	 font-weight: 400;
+}
+ header {
+	 color: #FFFF;
+	 padding-top: 10vw;
+	 padding-bottom: 30vw;
+	 text-align: center;
+}
+ main {
+	 background: linear-gradient(to bottom, #fff 0%, #dddee1 100%);
+	 border-bottom: 1px solid rgba(0, 0, 0, .2);
+	 padding: 10vh 0 80vh;
+	 position: relative;
+	 text-align: center;
+	 overflow: hidden;
+}
+ main::after {
+	 border-right: 2px dashed #eee;
+	 content: '';
+	 position: absolute;
+	 top: calc(10vh + 1.618em);
+	 bottom: 0;
+	 left: 50%;
+	 width: 2px;
+	 height: 100%;
+}
+ 
+ small {
+	 opacity: 0.5;
+	 font-weight: 300;
+}
+ small a {
+	 color: inherit;
+}
+
+.floating {
+	animation-name: floating;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.floatingNormal {
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+@keyframes floating {
+	0% {
+		transform: translate(0, 0px);
+	}
+
+	50% {
+		transform: translate(0, 15px);
+	}
+
+	100% {
+		transform: translate(0, -0px);
+	}
+}
+
+ 
+ .ocean {
+	 height: 5%;
+	 width: 100%;
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 background: #015871;
+}
+ .wave {
+	 background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+	 position: absolute;
+	 top: -198px;
+	 width: 6400px;
+	 height: 198px;
+	 animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+	 transform: translate3d(0, 0, 0);
+}
+ .wave:nth-of-type(2) {
+	 top: -175px;
+	 animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite, swell 7s ease -1.25s infinite;
+	 opacity: 1;
+}
+ @keyframes wave {
+	 0% {
+		 margin-left: 0;
+	}
+	 100% {
+		 margin-left: -1600px;
+	}
+}
+ @keyframes swell {
+	 0%, 100% {
+		 transform: translate3d(0, -25px, 0);
+	}
+	 50% {
+		 transform: translate3d(0, 5px, 0);
+	}
+}
+ 
